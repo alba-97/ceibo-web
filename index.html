@@ -8,7 +8,10 @@
   </head>
   <body>
     <script>
-      const planId = window.location.href.split("id-")[1];
+      const planId = window.location.href.split("?id=")[1];
+      if (planId) {
+        console.log(planId);
+      }
     </script>
   </body>
 </html>
