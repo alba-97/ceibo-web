@@ -10,7 +10,7 @@
     <script>
       const planId = window.location.href.split("?id=")[1];
       if (planId) {
-        console.log(planId);
+        window.location.replace(`clubdelplan://${planId}`);
       }
     </script>
   </body>
