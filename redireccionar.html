@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Redireccionar - El club del plan</title>
+  </head>
+  <body style="background-color: #433055">
+    <script>
+      function redirectAndroid(url) {
+        setTimeout(function () {
+          window.location.href = "/download.html";
+        }, 25);
+        window.location.href = url;
+      }
+      const planId = window.location.href.split("?id=")[1];
+      if (planId) {
+        redirectAndroid(`clubdelplan://${planId}`);
+      }
+    </script>
+  </body>
+</html>
