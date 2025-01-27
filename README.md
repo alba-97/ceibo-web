@@ -1,4 +1,4 @@
-# El club del plan
+# The Event Network
 
-[Repo de app Android](https://github.com/alba-97/ceibo-front)  
-[Repo de backend](https://github.com/alba-97/ceibo-back)
+[Android app repository](https://github.com/alba-97/ceibo-front)  
+[Backend repository](https://github.com/alba-97/ceibo-back)
